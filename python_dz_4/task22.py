@@ -38,12 +38,12 @@ print(list_3)
 
 ###
 
-num_1 = int(input("Введите количество элементов первого множества: "))
-set_1 = set([int(input(f"Введите {i + 1}-й элемент первого множества: ")) for i in range(num_1)])
-
-num_2 = int(input("Введите количество элементов второго множества: "))
-set_2 = set([int(input(f"Введите {i + 1}-й элемент второго множества: ")) for i in range(num_2)])
-
-result = list(set_1.intersection(set_2))
-result.sort()
-print(result)
+# num_1 = int(input("Введите количество элементов первого множества: "))
+# set_1 = set([int(input(f"Введите {i + 1}-й элемент первого множества: ")) for i in range(num_1)])
+#
+# num_2 = int(input("Введите количество элементов второго множества: "))
+# set_2 = set([int(input(f"Введите {i + 1}-й элемент второго множества: ")) for i in range(num_2)])
+#
+# result = list(set_1.intersection(set_2))
+# result.sort()
+# print(result)

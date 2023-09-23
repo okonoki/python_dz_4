@@ -26,4 +26,4 @@ for i in range(len(sum_1) - 1):
 
 print(max_1)
 
-print(max(sum_1))
+# print(max(sum_1))
